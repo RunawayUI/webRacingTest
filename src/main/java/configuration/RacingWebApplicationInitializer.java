@@ -18,6 +18,7 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.DispatcherServlet;
 
+import component.impl.ApplicationListener;
 
 public class RacingWebApplicationInitializer implements WebApplicationInitializer {
 

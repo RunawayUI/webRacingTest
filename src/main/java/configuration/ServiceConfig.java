@@ -11,7 +11,7 @@ import org.springframework.core.io.Resource;
 
 
 @Configuration
-@ComponentScan({ "service.impl","controller","filter",})
+@ComponentScan({ "service.impl","controller","filter","component.impl"})
 public class ServiceConfig {
 
     @Bean
